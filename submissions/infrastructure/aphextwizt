@@ -1,0 +1,74 @@
+# vApp Submission: [Sound Kive]
+
+## Verification
+```yaml
+github_username: "aphextwizt"
+discord_id: "1345448115402051750"
+timestamp: "2025-27-8"
+```
+
+## Developer
+- **Name**: Aphex Twist
+- **GitHub**: @aphextwizt
+- **Discord**: aphextwist
+- **Experience**: Experience in building privacy preserving applications, integrating post quantum cryptography and developing tooling for blockchain smart contracts. Previously contributed to interoperability libraries and dApp SDKs.
+
+## Project
+
+### Name & Category
+- **Project**: Sound Kive
+- **Category**: Infrastructure
+
+### Description
+Sound Kive is a developer toolkit for building, composing, and deploying ZK powered smart contracts. It enables developers to generate and combine ZK proofs, test them locally, and deploy verified contracts across multiple blockchains. 
+The toolkit integrates quantum resistant (PQC) hybrid signatures to ensure proofs remain secure against future quantum threats.
+
+### SL Integration  
+Sound Kive leverages the core features of the Soundness Layer to efficiently verify ZK proofs. The platform uses proof building libraries to construct ZK circuits and verification libraries to ensure that all proofs are validated correctly, both on the blockchain and off chain, keeping full compatibility with Soundness Layer standards.
+In addition, Sound Kive incorporates hybrid signatures that are resistant to quantum computing threats throughout the workflow, ensuring that proof outputs and communication between developers, data relayers, and proof verifiers remain secure and trustworthy for long term use.
+
+## Technical
+
+### Architecture
+Kive IDE / CLI: Developer interface for building Zk Applications.
+Proof Composer: Combines multiple circuits into one deployable proof.
+PQC Validator: Adds hybrid signature check berfore deployment.
+Deployment Manager: Pushes validated ZK contracts onto target chains.
+Intergration Layer: Connects directly to Soundness Layer for proof verification.
+
+### Stack
+- **Frontend**: React
+- **Backend**: Node.js / Rust
+- **Blockchain**: Soundness Layer + (Sui, Solana, Near, etc)
+- **Storage**: IPFS for proof metadata and local DB for developer state
+
+### Features
+1. ZK proof composer and deployment CLI
+2. Hybrid PQC / classical signature validation
+3. Intergration with Soundness Layer for secure proof verification
+
+## Timeline
+
+### PoC (2-4 weeks)
+- [x] Basic CLI & UI funcitionality
+- [x] SL intergration for proof generation
+- [x] Simple contract deployment flow
+
+### MVP (4-8 weeks)  
+- [x] Full Zk proof composition & deployment
+- [x] Quantum resistant proof validation
+- [x] User Testing with sample dApps
+
+## Innovation
+Sound Kive is unique because it empowers developers to deploy ZK proof smart contracts with built in quantum resistance, combining usability, security, and Soundness Layer integration in a single toolkit. 
+Developers can build faster, safer, and future proof applications across multiple chains.
+
+## Contact
+Discord @aphextwist
+Updates will be shared via GitHub PR and community channels.
+
+**Checklist before submitting:**
+- [x] All fields completed
+- [x] GitHub username matches PR author  
+- [x] SL integration explained
+- [x] Timeline is realistic
